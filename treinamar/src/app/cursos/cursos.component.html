@@ -1,0 +1,35 @@
+<p>
+GAMAR Cursos para MAR!
+</p>
+
+<h2>Lista de Cursos</h2>
+
+<div *ngFor="let treinamento of treinamentos; index as treinamentoId">
+  <hr>
+  <h3>
+    <img [title]="" [src]="'https://leoym.github.io/img/qrcode.png'" [width]="100" />
+    <a [title]="treinamento.nome + ' details'" [routerLink]="['/treinamentos', treinamentoId]">
+      {{ treinamentos.nome }}
+    </a>
+    <img [title]="" [src]="'https://raw.githubusercontent.com/leoym/leoym.github.io/master/img/rebocador.png'" [width]="100" />
+    
+  </h3>
+
+  <p *ngIf="treinamento.descricao">
+    Descrição: {{ treinamento.descricao }}
+  </p>
+   <p *ngIf="treinamento.conteudo">
+    Descrição: {{ treinamento.conteudo }}
+  </p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GcV7ndKB80M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p></p>
+  <button (click)="share()">
+    Compartilhar
+  </button>
+
+</div>
+
+<p></p>
+<p></p>
