@@ -13,3 +13,9 @@
 		https://treinamar.stackblitz.io/
 
 ![picture](tela-treinamar.PNG)
+
+
+	a pasta treinamar contém o código do backend em nodejs
+
+![picture](tela-treinamar-backend.PNG)
+
