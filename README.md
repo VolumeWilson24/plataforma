@@ -15,7 +15,14 @@
 ![picture](tela-treinamar.PNG)
 
 
-	a pasta treinamar contém o código do backend em nodejs
+	A pasta treinamar-backend contém o código do backend em nodejs
+
+	Para rodar o projeto, entrar na pasta e rodar os comandos:
+
+	# npm install
+	
+	# npm start
+
 
 ![picture](tela-treinamar-backend.PNG)
 
